@@ -4,3 +4,6 @@ My curated list of useful python 3 tricks. Helpful for coding interviews and gen
 Unlike online docs and other sites, I don't bloat it with too many examples or long explanations. Web pages are also distracting. Short sweet and simple.
 
 Each group of tips has its own folder  
+
+#TODO
+Add a jupyter notebooks for all code samples 
