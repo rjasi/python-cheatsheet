@@ -17,3 +17,5 @@ def comma_placement():
         "green",
         "yellow", # last item has comma but legit syntax
         ]
+
+    # words =

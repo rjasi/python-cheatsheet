@@ -39,6 +39,10 @@ def lambdas_in_list_comprehensions()
 
     # can do [x * 2 for x in nums ] as well ...
 
+def lambdas_for_sorting():
+    tuples = [(1, 'd'), (2, 'b'), (4, 'a'), (3, 'c')]
+    sorted(tuples, key=lambda x: x[1]) # sorts by the second value of the tuple  
+
 def curry_functions():
     # lambdas are lazily eval'd, meaning it is evaluated when you need it
     # currying just means you pass paramters to the final function in a chain
@@ -88,4 +92,4 @@ def lambda_donts():
 
 def closures():
     #todo
-    return 
+    return

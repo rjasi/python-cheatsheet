@@ -83,6 +83,6 @@ def double_leading_trailing():
 def single_underscore():
     # name like _
 
-    # _ just means not needed 
+    # _ just means not needed
     for i, _ in enumerate([1,2,35]):
         print("hi",  i)
