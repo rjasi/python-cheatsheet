@@ -1,5 +1,6 @@
 """
     list stuff
+    list is implemented as a dynamic array 
 """
 
 def append():
