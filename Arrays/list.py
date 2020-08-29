@@ -1,6 +1,6 @@
 """
     list stuff
-    list is implemented as a dynamic array 
+    list is implemented as a dynamic array
 """
 
 def append():
@@ -134,7 +134,7 @@ def sort():
 def indexing():
     demo_list = [1,2,3,4,5]
 
-    # indexing goes as follows [start:stop:step]
+    # indexing/splicing goes as follows [start:stop:step]
     demo_list[::2]
     # returns [1, 3, 5], visited 0, 2, 4
 
