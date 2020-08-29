@@ -162,3 +162,10 @@ def delete_an_item():
 
     # del non existant key will throw error
     # del demo_dict[6] not ok
+
+def hashable_keys():
+    # keys of a dict must be hashable
+    # hashable object means its hash value never changes
+    # __hash__ <- hash code of something
+    # __eq__ <- how to compare 2 different objects
+    
