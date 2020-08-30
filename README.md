@@ -32,10 +32,6 @@ Each group of tips has its own folder
 Tested with
 * Python 3.8.5 
 
-#TODO
-Add a jupyter notebooks for all code samples
-
-
 # References
 
 some books and websites
@@ -44,7 +40,7 @@ https://realpython.com/products/python-tricks-book/
 
 # Notes
 
-There a probably mistakes and typos in the code but rest assured all examples
+There are probably mistakes and typos in the code but all examples
 will run, except for the ones that intentionally throw exceptions
 
 # TODO
