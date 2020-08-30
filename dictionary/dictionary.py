@@ -168,4 +168,11 @@ def hashable_keys():
     # hashable object means its hash value never changes
     # __hash__ <- hash code of something
     # __eq__ <- how to compare 2 different objects
-    return 
+    return
+
+def trick_to_get_first_elem_of_dict_keys():
+    demo_dict = {1: 'a', 2: 'b', 3: 'c'}
+    v = demo_dict[next(iter(demo_dict.keys()))]
+    print(v) # prints 'a'
+    # see how useful it was :)
+    # https://leetcode.com/problems/lru-cache/discuss/819753/Python-simple-O(1)-time-O(1)-space-beats-97-on-time-99-space
